@@ -1,0 +1,4 @@
+#Thu Sep 12 07:34:53 EDT 2019
+base.0=/Users/ganga/Desktop/GoPlaces/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

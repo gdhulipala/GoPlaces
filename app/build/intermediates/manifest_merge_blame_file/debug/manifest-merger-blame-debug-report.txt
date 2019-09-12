@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2016 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.gplaces"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="15"
+23-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="23" />
+24-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:19:5-67
+26-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:19:22-64
+27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+27-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:20:5-81
+27-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:20:22-78
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:21:5-79
+28-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:21:22-76
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:22:5-79
+29-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:22:22-76
+30
+31    <application
+31-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:24:5-52:19
+32        android:allowBackup="true"
+32-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:25:9-35
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:26:9-43
+35        android:label="Goplaces"
+35-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:27:9-33
+36        android:supportsRtl="true"
+36-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:28:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:29:9-40
+39        <activity
+39-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:30:9-38:20
+40            android:name="com.example.android.gplaces.MainActivity"
+40-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:31:13-41
+41            android:screenOrientation="portrait" >
+41-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:32:13-49
+42            <intent-filter>
+42-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:33:13-37:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:34:17-69
+43-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:34:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:36:17-77
+45-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:36:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <meta-data
+49-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:40:9-42:45
+50            android:name="android.support.PARENT_ACTIVITY"
+50-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:41:13-59
+51            android:value=".MainActivity" />
+51-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:42:13-42
+52
+53        <activity
+53-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:44:9-47:45
+54            android:name="com.example.android.gplaces.GetLocation"
+54-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:45:13-40
+55            android:label="Goplaces"
+55-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:46:13-37
+56            android:value=".MainActivity" />
+56-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:47:13-42
+57        <activity android:name="com.example.android.gplaces.NearestPlacesActivity" />
+57-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:48:9-59
+57-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:48:19-56
+58        <activity
+58-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:49:9-51:20
+59            android:name="com.example.android.gplaces.SplashActivity"
+59-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:49:19-49
+60            android:screenOrientation="portrait" >
+60-->/Users/ganga/Desktop/GoPlaces/app/src/main/AndroidManifest.xml:50:13-49
+61        </activity>
+62    </application>
+63
+64</manifest>

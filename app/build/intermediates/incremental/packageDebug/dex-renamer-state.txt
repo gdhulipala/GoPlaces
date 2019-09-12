@@ -1,0 +1,4 @@
+#Thu May 10 20:22:08 EDT 2018
+base.0=/Users/ganga/Desktop/GoPlaces/GoPlaces 02 Sep 2017_Final With Comments/Gplaces_1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/ganga/Desktop/GoPlaces/GoPlaces 02 Sep 2017_Final With Comments/Gplaces_1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
